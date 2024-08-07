@@ -1,0 +1,18 @@
+life cycle methods
+just like our life...born,learn,death
+mount -> birth of component->comp. initial rendered in a DOM
+update-> component is being updated
+unmount -> components is removed from DOM
+
+*mounting*->
+1)constructor-> function-> intially called
+2)rendered->Logic ,some more component,merge everything
+3) componentDidMount->side effects -> call API ,DOM 
+
+
+
+the flow is like...
+
+hook.js:332 hey im from constructor
+user.jsx:35 hey i'm from render
+2user.jsx:28 hey i'm from component did mount
